@@ -1,0 +1,24 @@
+
+
+git config --global user.name "Deepak"                         // no need to use global, if local i.e. if a project wants a different
+                                                               // user name and email
+  
+git config --global user.email "deepak94.mce@gmail.com"
+
+****Move to the project directory*****
+//dir- win to list down the files in directory
+//cls- clear screen
+
+git init
+
+echo "# text" >> README.md   "creates readme.md with text
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin <url>
+
+git push -u origin master
+
+git status
