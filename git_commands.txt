@@ -8,6 +8,7 @@ git config --global user.email "deepak94.mce@gmail.com"
 ****Move to the project directory*****
 //dir- win to list down the files in directory
 //cls- clear screen
+//open in mac = explorer in win
 
 git init
 
@@ -28,3 +29,26 @@ git diff
 git commit -a   //skipping git add step    -m "" //messages
 
 git push origin master   //origin- remote name    master-branch name
+
+git log     //returns log of previous commits (git log -1, returns latest commit) 
+
+git log --oneline //simplified view of commits
+
+git log --stat  //detailed view of all commits
+
+git log --patch  //detailed diff of commits , q to quit
+
+
+git rm file_name  // to remove a file completely
+
+git rm --cached   //do  not remove, only not track
+
+git mv file_name desired_name   /to rename file
+
+
+BRANCHING
+git checkout -b new_branch  // to create and track new branch , not the master branch (master stays behind, the ponter tracks new_branch)
+
+git checkout master  // to return to master branch
+
+git branch name   //only to create a branch and not checkout
