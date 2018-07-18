@@ -68,9 +68,12 @@ git merge new_branch    /be in master branch
 :wq   , to save na dquit wem
 
 
-
 To RESET,
 
 git reset --soft (num from log oneline)//moves commits to staging area
 git reset --mixed (")// moves changes to working directory
 git reset --hard (")// puts to trash including staging (be careful)
+
+To pULL
+
+git clone url
