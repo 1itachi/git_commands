@@ -9,6 +9,7 @@ git config --global user.email "deepak94.mce@gmail.com"
 //dir- win to list down the files in directory
 //cls- clear screen
 //open in mac = explorer in win
+//touch in mac = copy con in win
 
 git init
 
@@ -52,3 +53,24 @@ git checkout -b new_branch  // to create and track new branch , not the master b
 git checkout master  // to return to master branch
 
 git branch name   //only to create a branch and not checkout
+
+//to stash (work in progress)
+git add .
+git stash
+git stash list
+git stash show
+git stash pop
+
+TO MERGE
+
+git merge new_branch    /be in master branch
+
+:wq   , to save na dquit wem
+
+
+
+To RESET,
+
+git reset --soft (num from log oneline)//moves commits to staging area
+git reset --mixed (")// moves changes to working directory
+git reset --hard (")// puts to trash including staging (be careful)
