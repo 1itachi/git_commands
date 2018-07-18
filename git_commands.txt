@@ -26,3 +26,5 @@ git status //git status -s or git status --short
 git diff
 
 git commit -a   //skipping git add step    -m "" //messages
+
+git push origin master   //origin- remote name    master-branch name
