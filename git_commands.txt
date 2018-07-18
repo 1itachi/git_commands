@@ -21,4 +21,8 @@ git remote add origin <url>
 
 git push -u origin master
 
-git status
+git status //git status -s or git status --short
+
+git diff
+
+git commit -a   //skipping git add step    -m "" //messages
